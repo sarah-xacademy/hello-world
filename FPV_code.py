@@ -54,6 +54,7 @@ class FpvApp:
 
         self.axis3 = Axis(min=172, dz_neg=950, dz_pos=1050, max=1811)
 
+        # CAN USE THIS SECTION TO CHANGE MAX SPEED AND MAX ANGULAR RATE
         self.max_speed = 2.5  # meters per second
         self.max_angular_rate = 3.14  # radians per second
 
